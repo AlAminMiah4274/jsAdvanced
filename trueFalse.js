@@ -3,9 +3,8 @@ Truthy:
 1. true.
 2. any number (+ve, -ve) will be truthy other than 0.
 3. any string other than empty string
-4. '0', 'false'
-5. {}
-6. []
+4. {}
+5. []
 
 Falsy
 1. false.
@@ -15,25 +14,24 @@ Falsy
 5. null
 */
 
-let x = [15, 748];
-console.log(x);
+const x = 4;
 if (x) {
-    console.log('Value of x is truthy');
+    console.log('value of x is truthy');
 }
 else {
-    console.log('Value of x is falsy');
+    console.log('value of x is falsy');
 }
 
 // optional
-// check false: 
-const y = '';
+// check false:
+const y = 0;
 if (!y) {
     console.log('value is falsy');
 }
 
 
 // check true:
-const z = ' ';
+const z = {};
 if (!!z) {
-    console.log('Value is truthy');
+    console.log('value is truthy');
 }
