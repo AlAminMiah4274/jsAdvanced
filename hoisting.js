@@ -1,5 +1,6 @@
 // print5();
 print10();
+// console.log(print10());
 
 for (let i = 0; i < 5; i++) {
     // console.log(i);
